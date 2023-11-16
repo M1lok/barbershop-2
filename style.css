@@ -8,6 +8,11 @@ header img {
     height: 100px;
     width: 100px;
 }
+.builder:hover {
+    position: absolute;
+    transform: translateY(100px) translateX(200px);
+    transition: 3s ease-in;
+}
 h1 {
     font-size: 36px;
     color: rgb(255, 255, 255);
@@ -15,17 +20,88 @@ h1 {
     padding-bottom: 5px;
     text-align: center;
 }
-
-img {
-    height: 100px;
-    width: 100px;
-}
-
-nav {
+h2 {
     font-size: 20px;
     color: rgb(255, 255, 255);
     font-weight: normal;
     padding-bottom: 5px;
     text-align: center;
 }
+nav {
+    font-size: 20px;
+    color: rgb(231, 231, 231);
+    font-weight: normal;
+    padding-bottom: 5px;
+    text-align: center;
+}
+a {
+    font-size: 20px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
 
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+img {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+img {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+img {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+img {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}img {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+.container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    opacity: 0.2;
+    width: 150px;
+    height: 200px;
+}
+
+.gallery img:hover {
+    
+}
+ 
+ .text {
+    width: 300px;
+}
+
+.right {
+    text-align: right;
+}
+ .gallery img:hover{
+    opacity: 1;
+    border: 6px solid rgb(255, 255, 255);
+    width: 170px;
+    height: 220px;
+    padding: 5px;
+    transition: 0.5 ease-out;
+ }
